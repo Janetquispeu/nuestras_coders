@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+	margin: 10px;
+	padding: 0px;
+}
+img{
+	width: 200px;
+	height: 200px;
+	margin: 0px;
+	position: relative;
+}
+.padre{
+	width: 780px;
+	height: 1000px;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+.cuadrado{
+	width: 140px;
+	height: 5px;
+	background-color: black;
+	margin-top: 30px;
+}
+.profile{
+	display: inline-block;
+	margin-left: 35px;
+}
+p{
+	color: white;
+	position: relative;
+	bottom: 30px;
+	left: 90px;
+	font-size: 12px;
+}
+.opacity {
+    -webkit-filter: brightness(70%);
+}
